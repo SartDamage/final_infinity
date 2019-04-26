@@ -1,0 +1,15 @@
+#Uncomment the following lines as you create the pages.
+
+ErrorDocument 404 /include/404.php
+#Not Found
+
+Options -Indexes
+ErrorDocument 403 /include/403.php
+#ErrorDocument 500 /500.php
+#Internal Server Error
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php56 .php .phtml
+# php -- END cPanel-generated handler, do not edit

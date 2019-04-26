@@ -1,0 +1,116 @@
+[02-Apr-2019 11:24:00 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/stock/dashboard_stock.php on line 4
+[04-Apr-2019 06:45:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[04-Apr-2019 06:45:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[07-Apr-2019 06:47:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[07-Apr-2019 06:47:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[07-Apr-2019 07:32:35 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/stock/get_stock_surgery.php:2) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[07-Apr-2019 07:32:56 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/stock/get_stock_surgery.php:2) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[07-Apr-2019 07:32:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/stock/get_stock_surgery.php:2) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[08-Apr-2019 08:04:59 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/stock/dashboard_stock.php on line 4
+[09-Apr-2019 13:18:35 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/stock/add_new_stock.php on line 4
+[09-Apr-2019 13:20:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[09-Apr-2019 13:20:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[09-Apr-2019 13:20:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[09-Apr-2019 13:20:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 05:59:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 06:00:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isActive' in 'field list'' in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php:40
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/update_on_toggle_stock_category.php on line 40
+[10-Apr-2019 06:12:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10-Capsule-aaaa-ssss' for key 'category'' in /home/ganesh/public_html/infinity/stock/add_stock.php:67
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/add_stock.php(67): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/add_stock.php on line 67
+[10-Apr-2019 06:14:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10-Capsule-aaaa-ssss' for key 'category'' in /home/ganesh/public_html/infinity/stock/add_stock.php:67
+Stack trace:
+#0 /home/ganesh/public_html/infinity/stock/add_stock.php(67): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/stock/add_stock.php on line 67
+[10-Apr-2019 09:52:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/stock/get_stock_surgery.php:2) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 12:53:39 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/stock/stock_add_list_category.php on line 4
+[12-Apr-2019 09:53:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/stock/get_stock_surgery.php:2) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[16-Apr-2019 14:04:32 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/stock/stock_list_all.php on line 4
+[24-Apr-2019 11:34:24 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/stock/dashboard_stock.php on line 4

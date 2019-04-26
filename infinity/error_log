@@ -1,0 +1,827 @@
+[01-Apr-2019 15:32:14 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/ganesh/public_html/infinity/include/global_variable.php on line 35
+[01-Apr-2019 15:32:16 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/ganesh/public_html/infinity/include/global_variable.php on line 35
+[02-Apr-2019 06:28:37 UTC] PHP Warning:  include(/home/ganesh/public_html/infinity/userClass.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/session.php on line 5
+[02-Apr-2019 06:28:37 UTC] PHP Warning:  include(): Failed opening '/home/ganesh/public_html/infinity/userClass.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/session.php on line 5
+[02-Apr-2019 06:28:37 UTC] PHP Fatal error:  Class 'userClass' not found in /home/ganesh/public_html/infinity/session.php on line 6
+[02-Apr-2019 06:28:41 UTC] PHP Warning:  include(/home/ganesh/public_html/infinity/userClass.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/session.php on line 5
+[02-Apr-2019 06:28:41 UTC] PHP Warning:  include(): Failed opening '/home/ganesh/public_html/infinity/userClass.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/session.php on line 5
+[02-Apr-2019 06:28:41 UTC] PHP Fatal error:  Class 'userClass' not found in /home/ganesh/public_html/infinity/session.php on line 6
+[02-Apr-2019 06:36:57 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ganesh/public_html/infinity/userClass.php on line 338
+[02-Apr-2019 06:37:00 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ganesh/public_html/infinity/userClass.php on line 338
+[02-Apr-2019 06:37:29 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ganesh/public_html/infinity/userClass.php on line 338
+[02-Apr-2019 06:37:43 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ganesh/public_html/infinity/userClass.php on line 338
+[02-Apr-2019 06:37:49 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ganesh/public_html/infinity/userClass.php on line 338
+[02-Apr-2019 06:37:51 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ganesh/public_html/infinity/userClass.php on line 338
+[02-Apr-2019 06:37:55 UTC] PHP Parse error:  syntax error, unexpected '$db' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ganesh/public_html/infinity/userClass.php on line 338
+[02-Apr-2019 06:44:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ganesh_hms.biometric_details' doesn't exist' in /home/ganesh/public_html/infinity/userClass.php:301
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(301): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Test', 'Test', 't.Test', '123456', 'test@test.com', '9900334455', 'male', 'Single', '1990-01-01', 'Accident and em...', 'Shop No 06/Nagu...', 'O+', '20190402064415....', 'test', '9933445566', 'Shop No 06/Nagu...', '2', '1004', '')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 301
+[02-Apr-2019 06:47:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`biometric_details`.`uid` at row 1' in /home/ganesh/public_html/infinity/userClass.php:301
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(301): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Test', 'Test', 't.Test', '123456', 'test@test.com', '9900334455', 'male', 'Single', '1990-01-01', 'Accident and em...', 'Shop No 06/Nagu...', 'O+', '20190402064724....', 'test', '9933445566', 'Shop No 06/Nagu...', '2', '1004', '')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 301
+[02-Apr-2019 06:54:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sitabai', 'Building', 'admin', '123456', 'c.arjuncool@gma...', '9870242880', 'male', 'Single', '2019-02-21', 'Accident and em...', 'Sai baba mandir...', 'O+', '20190402065400....', 'Sitabai Smruti ...', '9944556677', 'Sai baba mandir...', '2', '1004', '4')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 06:55:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sita', 'Buildi', 'admin', '123456', 'c.arjuncool@gma...', '9870242880', 'male', 'Single', '2019-02-21', 'Accident and em...', 'Sai baba mandir...', 'O+', '20190402065555....', 'Sitabai Smruti ...', '9944556677', 'Sai baba mandir...', '2', '1004', '4')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 07:42:51 UTC] PHP Warning:  Missing argument 19 for userClass::updatestaff(), called in /home/ganesh/public_html/infinity/update_staff_redundant.php on line 125 and defined in /home/ganesh/public_html/infinity/userClass.php on line 374
+[02-Apr-2019 09:19:50 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashatt.php on line 5
+[02-Apr-2019 09:21:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'ganeshmemorialh...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092130....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:21:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'ganeshmemorialh...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092142....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:22:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'ganeshmemorialh...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092224....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:22:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'ganeshmemorialh...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092248....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:22:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'ganeshmemorialh...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092254....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:22:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'ganeshmemorialh...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092258....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:23:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'shital.kumbhare...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092332....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:23:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'shital.kumbhare...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092332....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:26:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'shital.kumbhare...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092657....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:26:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'shital.kumbhare...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092657....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:27:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ice_name' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Shital', 'Kumbhare', 'Shital Kumbhare', '123456', 'shital.kumbhare...', '9004239595', 'female', 'Married', '1978-06-01', 'Nurse', 'Sai Sankul, Pha...', 'B+', '20190402092722....', 'Pramila Kumbhar...', '8691802441', 'Sai Sankul, Pha...', '3', '1013', '13')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:40:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'username' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sarita', 'Choudhary', 'Sarita Choudhar...', '123456', 'Sarita.Choudhar...', '9867922801', 'female', 'Married', '1991-05-11', 'Nurse', 'C-42, Happy Hom...', 'O-', '20190402094048....', 'Ravi Choudhary', '9619450017', 'C-42, Happy Hom...', '3', '1015', '15')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:40:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'username' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sarita', 'Choudhary', 'Sarita Choudhar...', '123456', 'Sarita.Choudhar...', '9867922801', 'female', 'Married', '1991-05-11', 'Nurse', 'C-42, Happy Hom...', 'O-', '20190402094056....', 'Ravi Choudhary', '9619450017', 'C-42, Happy Hom...', '3', '1015', '15')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:41:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'username' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sarita', 'Choudhary', 'Sarita Choudhar...', '123456', 'Sarita.Choudhar...', '9867922801', 'female', 'Married', '1991-05-11', 'Nurse', 'C-42, Happy Hom...', 'O-', '20190402094142....', 'Ravi Choudhary', '9619450017', 'C-42, Happy Hom...', '3', '1015', '15')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:43:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'username' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sarita', 'Choudhary', 'Sarita Choudhar...', '123456', 'Sarita.Choudhar...', '9867922801', 'female', 'Married', '1991-05-11', 'Nurse', 'C-42, Happy Hom...', 'O-', '20190402094305....', 'Ravi Choudhary', '9619450017', 'C-42, Happy Hom...', '3', '1015', '15')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:46:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'username' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sarita', 'Choudhary', 'Sarita Choudhar...', '123456', 'Sarita.Choudhar...', '9867922801', 'female', 'Married', '1991-05-11', 'Nurse', 'C-42, Happy Hom...', 'O-', '20190402094652....', 'Ravi Choudhary', '9619450017', 'C-42, Happy Hom...', '3', '1015', '15')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:48:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'username' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sarita', 'Choudhary', 'Sarita Choudhar...', '123456', 'Sarita.Choudhar...', '9867922801', 'female', 'Married', '1991-05-11', 'Nurse', 'C-42, Happy Hom...', 'O-', '20190402094821....', 'Ravi Choudhary', '9619450017', 'C-42, Happy Hom...', '3', '1015', '15')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:49:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'username' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sarita', 'Choudhary', 'Sarita Choudhar...', '123456', 'Sarita.Choudhar...', '9867922801', 'female', 'Married', '1991-05-11', 'Nurse', 'C-42, Happy Hom...', 'O-', '20190402094917....', 'Ravi Choudhary', '9619450017', 'C-42, Happy Hom...', '3', '1015', '15')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[02-Apr-2019 09:50:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'username' at row 1' in /home/ganesh/public_html/infinity/userClass.php:271
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(271): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addstaff.php(97): userClass->addstaff('Sarita', 'Choudhary', 'Sarita Choudhar...', '123456', 'saritakumari516...', '9867922801', 'female', 'Married', '1991-05-11', 'Nurse', 'C-42, Happy Hom...', 'O-', '20190402095028....', 'Ravi Choudhary', '9619450017', 'C-42, Happy Hom...', '3', '1015', '15')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 271
+[03-Apr-2019 06:48:13 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/add_new_staff_admin_form.php on line 4
+[03-Apr-2019 07:14:45 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_employees.php on line 5
+[03-Apr-2019 08:00:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[03-Apr-2019 08:08:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[03-Apr-2019 08:11:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[03-Apr-2019 08:43:33 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/add_new_staff_admin_form.php on line 4
+[03-Apr-2019 10:57:27 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatientform.php on line 4
+[04-Apr-2019 05:21:31 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/add_new_staff_form.php on line 4
+[04-Apr-2019 05:21:39 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatientform.php on line 4
+[04-Apr-2019 05:34:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ot_id' cannot be null' in /home/ganesh/public_html/infinity/addpatient_vt.php:90
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_vt.php(90): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_vt.php on line 90
+[04-Apr-2019 05:34:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ot_id' cannot be null' in /home/ganesh/public_html/infinity/addpatient_vt.php:90
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_vt.php(90): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_vt.php on line 90
+[04-Apr-2019 05:41:18 UTC] PHP Warning:  Missing argument 19 for userClass::updatestaff(), called in /home/ganesh/public_html/infinity/update_staff_redundant.php on line 125 and defined in /home/ganesh/public_html/infinity/userClass.php on line 374
+[04-Apr-2019 05:42:25 UTC] PHP Warning:  Missing argument 19 for userClass::updatestaff(), called in /home/ganesh/public_html/infinity/update_staff_redundant.php on line 125 and defined in /home/ganesh/public_html/infinity/userClass.php on line 374
+[04-Apr-2019 05:43:21 UTC] PHP Warning:  Missing argument 19 for userClass::updatestaff(), called in /home/ganesh/public_html/infinity/update_staff_redundant.php on line 125 and defined in /home/ganesh/public_html/infinity/userClass.php on line 374
+[04-Apr-2019 06:05:54 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:05:54 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:05:54 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:05:54 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:05:54 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:05:54 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:05:54 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 8
+[04-Apr-2019 06:06:02 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:06:02 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:06:02 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:06:02 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:06:02 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:06:02 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:06:02 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 8
+[04-Apr-2019 06:06:51 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:06:51 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:06:51 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:06:51 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:06:51 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:06:51 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:06:51 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 8
+[04-Apr-2019 06:07:01 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:07:01 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:07:01 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:07:01 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:07:01 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:07:01 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:07:01 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 8
+[04-Apr-2019 06:07:07 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:07:07 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:07:07 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:07:07 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:07:07 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:07:07 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:07:07 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 8
+[04-Apr-2019 06:07:25 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:07:25 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:07:25 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:07:25 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:07:25 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:07:25 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:07:25 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 8
+[04-Apr-2019 06:08:11 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:08:11 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[04-Apr-2019 06:08:11 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:08:11 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[04-Apr-2019 06:08:11 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:08:11 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[04-Apr-2019 06:08:11 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 8
+[04-Apr-2019 07:02:38 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[04-Apr-2019 07:03:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[04-Apr-2019 08:05:20 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_bed_ward_type.php on line 4
+[04-Apr-2019 08:43:12 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_employees.php on line 5
+[04-Apr-2019 10:15:11 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_records.php on line 5
+[04-Apr-2019 11:11:26 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_ipd.php on line 5
+[04-Apr-2019 11:11:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[04-Apr-2019 11:22:27 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_records.php on line 5
+[04-Apr-2019 11:25:49 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[04-Apr-2019 11:25:49 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[04-Apr-2019 11:25:49 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[04-Apr-2019 11:25:49 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[04-Apr-2019 11:25:49 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[04-Apr-2019 11:25:49 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[04-Apr-2019 11:25:49 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 8
+[04-Apr-2019 12:14:30 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/logout.php on line 5
+[04-Apr-2019 13:49:01 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients.php on line 5
+[05-Apr-2019 05:39:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ot_id' cannot be null' in /home/ganesh/public_html/infinity/addpatient_delivery.php:99
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_delivery.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 99
+[05-Apr-2019 05:39:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ot_id' cannot be null' in /home/ganesh/public_html/infinity/addpatient_delivery.php:99
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_delivery.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 99
+[05-Apr-2019 05:44:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ot_id' cannot be null' in /home/ganesh/public_html/infinity/addpatient_delivery.php:99
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_delivery.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 99
+[05-Apr-2019 07:03:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/update_patient_form.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[05-Apr-2019 07:08:01 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[05-Apr-2019 07:13:10 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatientform.php on line 4
+[05-Apr-2019 07:38:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ganesh/public_html/infinity/userClass.php:395
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(395): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addpatient_redundant_test.php(42): userClass->updatePatient('R20190329115046', 'SHIPA', 'PURANIK', 'mayur.patne@dar...', '', 'female', 'Single', '43', '9004946165', '64', '64', 'ROOM NO 504, VI...', 'O+', 'Dummy', 'dummy', '1122332255', 'ROOM NO 504, VI...', 'no', '', '30', 'MQ==', 'MTU2ODQ4Nzk2NTI...')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 395
+[05-Apr-2019 07:42:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ganesh/public_html/infinity/userClass.php:395
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(395): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addpatient_redundant_test.php(42): userClass->updatePatient('R20190329115046', 'SHIPA', 'PURANIK', 'mayur.patne@dar...', '', 'female', 'Single', '43', '9004946165', '64', '64', 'ROOM NO 504, VI...', 'O+', 'Dummy', 'dummy', '1122332255', 'ROOM NO 504, VI...', 'no', '', '30', 'MQ==', 'MTU2ODQ4Nzk2NTI...')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 395
+[05-Apr-2019 07:54:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ganesh/public_html/infinity/userClass.php:395
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(395): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addpatient_redundant_test.php(42): userClass->updatePatient('R20190329115046', 'SHIPA', 'PURANIK', 'mayur.patne@dar...', '', 'female', 'Single', '43', '9004946165', '64', '64', 'ROOM NO 504, VI...', 'O+', 'Dummy', 'dummy', '1122332255', 'ROOM NO 504, VI...', 'no', '', '30', 'MQ==', 'MTU2ODQ4Nzk2NTI...')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 395
+[05-Apr-2019 08:21:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ganesh/public_html/infinity/userClass.php:395
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(395): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addpatient_redundant_test.php(42): userClass->updatePatient('R20190329115046', 'SHIPA', 'PURANIK', 'mayur.patne@dar...', '', 'female', 'Single', '43', '9004946165', '64', '64', 'ROOM NO 504, VI...', 'O+', 'Dummy', 'dummy', '1122332255', 'ROOM NO 504, VI...', 'no', '', '30', 'MQ==', 'MTU2ODQ4Nzk2NTI...')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 395
+[05-Apr-2019 08:23:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ganesh/public_html/infinity/userClass.php:395
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(395): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addpatient_redundant_test.php(42): userClass->updatePatient('R20190329115046', 'SHIPA', 'PURANIK', 'mayur.patne@dar...', '', 'female', 'Single', '43', '9004946165', '64', '64', 'ROOM NO 504, VI...', 'O+', 'Dummy', 'dummy', '1122332255', 'ROOM NO 504, VI...', 'no', '', '30', 'MQ==', 'MTU2ODQ4Nzk2NTI...')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 395
+[05-Apr-2019 08:47:13 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_delivery_details.php on line 5
+[05-Apr-2019 12:51:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[05-Apr-2019 12:51:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[05-Apr-2019 12:51:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[05-Apr-2019 12:54:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[05-Apr-2019 12:54:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[05-Apr-2019 12:55:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[05-Apr-2019 12:57:35 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashboard.php on line 4
+[05-Apr-2019 13:01:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isUHID' in 'field list'' in /home/ganesh/public_html/infinity/addpatient_opd.php:45
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_opd.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_opd.php on line 45
+[05-Apr-2019 13:01:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isUHID' in 'field list'' in /home/ganesh/public_html/infinity/addpatient_opd.php:45
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_opd.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_opd.php on line 45
+[05-Apr-2019 13:07:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isUHID' in 'field list'' in /home/ganesh/public_html/infinity/addpatient_opd.php:45
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_opd.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_opd.php on line 45
+[05-Apr-2019 13:48:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'isUHID' in 'field list'' in /home/ganesh/public_html/infinity/addpatient_opd.php:45
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_opd.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_opd.php on line 45
+[05-Apr-2019 13:53:08 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[05-Apr-2019 13:56:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 13:57:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 13:57:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 14:02:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[05-Apr-2019 14:03:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 14:03:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 14:03:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 14:04:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 14:11:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 14:11:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 14:13:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 14:14:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[05-Apr-2019 14:15:29 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_records.php on line 5
+[05-Apr-2019 14:15:30 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[07-Apr-2019 05:39:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[07-Apr-2019 07:26:33 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/logout.php on line 5
+[07-Apr-2019 18:27:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:27:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:27:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:27:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:27:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:27:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:27:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:29:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:33:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:34:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:34:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:34:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:34:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[07-Apr-2019 18:34:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[08-Apr-2019 05:54:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'popd.WhenEntered' in 'where clause'' in /home/ganesh/public_html/infinity/get_all_patients_ipd.php:61
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_all_patients_ipd.php(61): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_all_patients_ipd.php on line 61
+[08-Apr-2019 06:02:09 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[08-Apr-2019 08:05:02 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_ot_reg.php on line 5
+[08-Apr-2019 08:09:13 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_ipd.php on line 5
+[08-Apr-2019 08:21:53 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/logout.php on line 5
+[08-Apr-2019 08:23:20 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[08-Apr-2019 08:24:57 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[08-Apr-2019 08:45:37 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[08-Apr-2019 08:51:29 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[08-Apr-2019 08:56:04 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_ot_reg.php on line 5
+[08-Apr-2019 09:21:44 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/receipt.php on line 5
+[08-Apr-2019 10:09:46 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_ot_reg.php on line 5
+[08-Apr-2019 10:12:42 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_ipd.php on line 5
+[08-Apr-2019 10:25:35 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_ipd_from_new.php on line 4
+[08-Apr-2019 10:34:51 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[08-Apr-2019 10:42:36 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[08-Apr-2019 10:46:44 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/get_all_patients_ipd_inactive.php on line 5
+[08-Apr-2019 11:32:27 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_opd.php on line 5
+[08-Apr-2019 11:39:32 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[08-Apr-2019 11:43:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[08-Apr-2019 11:47:22 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:47:22 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:47:22 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:47:22 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:47:22 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:47:22 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:47:22 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 8
+[08-Apr-2019 11:47:32 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:47:32 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:47:32 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:47:32 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:47:32 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:47:32 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:47:32 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 8
+[08-Apr-2019 11:47:40 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:47:40 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:47:40 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:47:40 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:47:40 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:47:40 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:47:40 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 8
+[08-Apr-2019 11:48:40 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:48:40 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:48:40 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:48:40 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:48:40 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:48:40 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:48:40 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 8
+[08-Apr-2019 11:50:38 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:50:38 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:50:38 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:50:38 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:50:38 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:50:38 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:50:38 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 8
+[08-Apr-2019 11:50:44 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:50:44 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:50:44 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:50:44 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:50:44 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:50:44 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:50:44 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 8
+[08-Apr-2019 11:50:50 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:50:50 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:50:50 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:50:50 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:50:50 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:50:50 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:50:50 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 8
+[08-Apr-2019 11:53:06 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:53:06 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 5
+[08-Apr-2019 11:53:06 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:53:06 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 6
+[08-Apr-2019 11:53:06 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:53:06 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 7
+[08-Apr-2019 11:53:06 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_mtp.php on line 8
+[09-Apr-2019 05:21:24 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[09-Apr-2019 05:27:19 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[09-Apr-2019 05:50:28 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_ipd.php on line 5
+[09-Apr-2019 06:24:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[09-Apr-2019 06:27:22 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[09-Apr-2019 06:27:22 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[09-Apr-2019 06:27:22 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[09-Apr-2019 06:27:22 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[09-Apr-2019 06:27:22 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[09-Apr-2019 06:27:22 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[09-Apr-2019 06:27:22 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 8
+[09-Apr-2019 06:27:47 UTC] PHP Warning:  include(/include/conection.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[09-Apr-2019 06:27:47 UTC] PHP Warning:  include(): Failed opening '/include/conection.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 5
+[09-Apr-2019 06:27:47 UTC] PHP Warning:  include(/session.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[09-Apr-2019 06:27:47 UTC] PHP Warning:  include(): Failed opening '/session.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 6
+[09-Apr-2019 06:27:47 UTC] PHP Warning:  include(/include/global_variable.php): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[09-Apr-2019 06:27:47 UTC] PHP Warning:  include(): Failed opening '/include/global_variable.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 7
+[09-Apr-2019 06:27:47 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 8
+[09-Apr-2019 06:58:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ot_id' cannot be null' in /home/ganesh/public_html/infinity/addpatient_delivery.php:140
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_delivery.php(140): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_delivery.php on line 140
+[09-Apr-2019 07:02:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[09-Apr-2019 07:02:54 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[09-Apr-2019 07:06:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[09-Apr-2019 07:19:26 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[09-Apr-2019 07:30:22 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashatt.php on line 5
+[09-Apr-2019 07:38:37 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[09-Apr-2019 07:40:50 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[09-Apr-2019 08:39:45 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_employees.php on line 5
+[09-Apr-2019 08:51:07 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatientform.php on line 4
+[09-Apr-2019 09:23:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[09-Apr-2019 09:23:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[09-Apr-2019 09:23:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[09-Apr-2019 09:23:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[09-Apr-2019 09:23:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[09-Apr-2019 09:23:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[09-Apr-2019 09:23:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:128
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 128
+[09-Apr-2019 09:43:27 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/update_user.php on line 4
+[09-Apr-2019 10:12:04 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashboard.php on line 4
+[09-Apr-2019 10:51:45 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[09-Apr-2019 10:56:24 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/update_patient_form.php on line 4
+[09-Apr-2019 11:04:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:05:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:07:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:07:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:07:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:07:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:07:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:08:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:27:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:29:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'patientID' cannot be null' in /home/ganesh/public_html/infinity/set_demo_receipt.php:89
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 89
+[09-Apr-2019 11:36:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:130
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(130): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 130
+[09-Apr-2019 11:37:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:130
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(130): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 130
+[09-Apr-2019 11:37:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `ganesh_hms`.`demo_receipt_particular`.`no_of_days` at row 1' in /home/ganesh/public_html/infinity/set_demo_receipt.php:130
+Stack trace:
+#0 /home/ganesh/public_html/infinity/set_demo_receipt.php(130): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/set_demo_receipt.php on line 130
+[09-Apr-2019 13:27:14 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[09-Apr-2019 13:28:02 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_reimbursement_receipt.php on line 5
+[09-Apr-2019 13:29:13 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/dashboard_pathology.php on line 4
+[10-Apr-2019 06:02:14 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[10-Apr-2019 06:10:57 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:11:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:12:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:12:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:12:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:12:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:12:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:13:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:13:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:27:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:27:48 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:28:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 06:55:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 07:01:36 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashboard.php on line 4
+[10-Apr-2019 07:13:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 07:27:10 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/logout.php on line 5
+[10-Apr-2019 07:31:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 09:21:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 09:22:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[10-Apr-2019 10:11:08 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_ipd.php on line 5
+[10-Apr-2019 10:11:42 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[10-Apr-2019 10:12:58 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/logout.php on line 5
+[10-Apr-2019 10:17:39 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_receipt_details.php on line 5
+[10-Apr-2019 10:45:11 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/logout.php on line 5
+[10-Apr-2019 11:17:58 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_records.php on line 5
+[10-Apr-2019 11:22:37 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[10-Apr-2019 11:26:05 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_records_uhid.php on line 5
+[10-Apr-2019 12:14:50 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashboard.php on line 4
+[10-Apr-2019 12:35:54 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients.php on line 5
+[10-Apr-2019 13:20:02 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_mtp_details.php on line 5
+[10-Apr-2019 13:21:56 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_mtp_details.php on line 5
+[11-Apr-2019 12:00:27 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/get_all_mtp_details.php on line 5
+[11-Apr-2019 12:00:27 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/get_all_mtp_details.php on line 5
+[11-Apr-2019 12:00:27 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/get_all_mtp_details.php on line 5
+[11-Apr-2019 12:11:36 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashatt.php on line 5
+[11-Apr-2019 13:03:59 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashboard.php on line 4
+[12-Apr-2019 05:18:23 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[12-Apr-2019 05:19:53 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashboard.php on line 4
+[12-Apr-2019 05:22:11 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_mtp_details.php on line 5
+[12-Apr-2019 05:28:10 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_records.php on line 5
+[12-Apr-2019 06:38:44 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_ipd.php on line 5
+[12-Apr-2019 07:47:37 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[12-Apr-2019 07:49:51 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[12-Apr-2019 08:41:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ganesh/public_html/infinity/get_list_all_ot.php:27
+Stack trace:
+#0 /home/ganesh/public_html/infinity/get_list_all_ot.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/get_list_all_ot.php on line 27
+[12-Apr-2019 11:10:18 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/add_mtp_details.php on line 4
+[13-Apr-2019 08:57:08 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_receipt.php on line 5
+[13-Apr-2019 08:57:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[13-Apr-2019 08:58:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/IPD_patient_detail_printable.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[13-Apr-2019 12:28:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION ganesh_hms.generate_UHID does not exist' in /home/ganesh/public_html/infinity/userClass.php:200
+Stack trace:
+#0 /home/ganesh/public_html/infinity/userClass.php(200): PDOStatement->execute()
+#1 /home/ganesh/public_html/infinity/addpatient.php(66): userClass->addPatient('Test', 'Test', 'yamkkarki@gmail...', '6987654684', 'male', 'Single', '24', '9876543210', '64', '64', 'Kalyan', '20190413122836....', 'O+', 'Test', 'test', '9876543216', 'Kalyan', 'yes', 'asddfdsafg', '30', 'MQ==', 'MTQ3MjU4MzY5ODU...')
+#2 {main}
+  thrown in /home/ganesh/public_html/infinity/userClass.php on line 200
+[13-Apr-2019 13:20:03 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/discharge_summary.php on line 4
+[15-Apr-2019 08:18:31 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/admin_dashboard.php on line 4
+[15-Apr-2019 11:15:51 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[16-Apr-2019 05:21:27 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatient_ot_from_new.php on line 4
+[16-Apr-2019 05:29:29 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_delivery_details.php on line 5
+[16-Apr-2019 11:36:28 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[16-Apr-2019 16:47:36 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/addpatientform.php on line 4
+[17-Apr-2019 08:34:48 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 A...', '<!DOCTYPE html ...')
+#2 /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ganesh/public_html/infinity/send_link.php(198): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1911
+[17-Apr-2019 08:36:17 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 17 A...', '<!DOCTYPE html ...')
+#2 /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ganesh/public_html/infinity/send_link.php(198): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1911
+[17-Apr-2019 09:14:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column `ganesh_hms`.`patientot`.`date_surgery` at row 1' in /home/ganesh/public_html/infinity/addpatient_ot.php:100
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_ot.php(100): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_ot.php on line 100
+[17-Apr-2019 09:22:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'OT00091' for key 'ot_id'' in /home/ganesh/public_html/infinity/addpatient_ot.php:100
+Stack trace:
+#0 /home/ganesh/public_html/infinity/addpatient_ot.php(100): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ganesh/public_html/infinity/addpatient_ot.php on line 100
+[17-Apr-2019 10:43:53 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/add_delivery_details.php on line 4
+[18-Apr-2019 08:01:48 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/discharge_summary.php on line 4
+[18-Apr-2019 08:02:26 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_ipd.php on line 5
+[18-Apr-2019 09:02:28 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[18-Apr-2019 10:03:32 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_opd.php on line 5
+[18-Apr-2019 12:04:41 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[18-Apr-2019 12:04:55 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients.php on line 5
+[18-Apr-2019 14:36:54 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[19-Apr-2019 09:02:07 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_delivery_details.php on line 5
+[23-Apr-2019 05:24:26 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients.php on line 5
+[23-Apr-2019 05:24:41 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[23-Apr-2019 05:24:47 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients.php on line 5
+[23-Apr-2019 06:12:49 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/registered_patient_all.php on line 4
+[23-Apr-2019 06:40:33 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/registered_patient_all.php on line 4
+[23-Apr-2019 07:35:44 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[23-Apr-2019 07:44:54 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/registered_patient_all.php on line 4
+[23-Apr-2019 07:45:46 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/registered_patient_all.php on line 4
+[23-Apr-2019 07:47:35 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/registered_patient_all.php on line 4
+[23-Apr-2019 07:48:26 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[23-Apr-2019 09:34:48 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/registered_patient_all.php on line 4
+[23-Apr-2019 12:45:31 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[23-Apr-2019 12:49:46 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_tl_details.php on line 5
+[23-Apr-2019 12:53:44 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/registered_patient_all.php on line 4
+[24-Apr-2019 09:45:52 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_stocks.php on line 5
+[25-Apr-2019 07:11:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[25-Apr-2019 07:20:49 UTC] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting' in /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php:1726
+Stack trace:
+#0 /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 25 A...', '<!DOCTYPE html ...')
+#1 /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/ganesh/public_html/infinity/send_link.php(198): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/ganesh/public_html/infinity/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1726
+[25-Apr-2019 07:35:26 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/manage_accounts.php on line 4
+[25-Apr-2019 07:59:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[25-Apr-2019 07:59:31 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/list_all_patients_ipd.php on line 5
+[25-Apr-2019 07:59:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[25-Apr-2019 07:59:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20
+[25-Apr-2019 08:00:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ganesh/public_html/infinity/addpatient_ipd.php:1) in /home/ganesh/public_html/infinity/include/conection.php on line 20

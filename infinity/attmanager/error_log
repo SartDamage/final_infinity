@@ -1,0 +1,1 @@
+[10-Apr-2019 13:55:35 UTC] PHP Fatal error:  Call to a member function userDetails() on null in /home/ganesh/public_html/infinity/attmanager/singleuserholiday.php on line 4

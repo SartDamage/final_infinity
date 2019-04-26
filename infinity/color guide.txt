@@ -1,0 +1,8 @@
+color codes 
+
+Login page gradient 
+ background: #008B8B; /* fallback for old browsers *///primary color
+  background: -webkit-linear-gradient(right, #008B8B, #008B8B);
+  background: -moz-linear-gradient(right, #008B8B,#008B8B);
+  background: -o-linear-gradient(right, #008B8B, #008B8B);
+  background: linear-gradient(to left, #008B8B, #008B8B);

@@ -1,0 +1,426 @@
+<table  class="table table-bordered" class="Main_summ">
+     <thead class="text-dark">
+      <tr>
+    <th colspan="8" class="text-center">MEDICAL TERMINATION OF PRGNANCY ACT</th>
+      </tr>
+     </thead>
+  <tr class="text-dark">
+    <td colspan="8">Summary report from <input class="summary_date" type="text" id="from_date" name="from_date" onchange="getDate()" />
+    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>  to <input class="summary_date" type="text" id="to_date" name="to_date" onchange="getDate()"/></i></span></td>
+  </tr>
+  <tr>
+    <td colspan="8" class="text-dark">Name of hospital with detail address:<br></td>
+  </tr>
+  <tr>
+    <td colspan="8" class="text-dark" >MTP canteen No</td>
+  </tr>
+  <tr class="text-dark">    <td>  </td>
+        <th colspan="2"class="text-center">particular</th>
+        <th colspan="2">During the Month</th>
+        <th colspan="3">progerssive</th>
+  </tr>
+  <tr class="text-dark">
+        <th>Sr.NO</th>
+        <th>particulars</th>
+        <th>Gov.</th>
+        <th>Non Gov.</th>
+        <th>total</th>
+        <th>Gov.</th>
+        <th>Non Gov.</th>
+        <th>total</th>
+  </tr>
+  <tr>
+        <td></td>
+        <th class="text-dark">Total no of MTP cases Done </th>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="3">I</td>
+    <td>By during pregnancy</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+
+    <td>1)Before 12 weeks</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>2)Between 13 to 20 weeks</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td> </td>
+    <th class="text-dark">Total</th>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="3"> </td>
+    <td>m v a</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+
+  </tr>
+    <tr>
+      <td>ru-498</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  <tr>
+    <td>Other</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td> </td>
+    <th class="text-dark">Total</th>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="9">II</td>
+    <td>By age group</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>1)Below 15 years</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>2)15 to 19 years</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>3)20 to 24 years</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>4)25 to 29 years</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>5)30 to 34 years</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>6)35 to 39 years</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>7)40 to 44 years</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>8)45 and above</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td> </td>
+    <th class="text-dark">Total</th>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="6">III</td>
+    <td>By religion</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>1)Hindu</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>2)Muslim</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>3)Sikh</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>4)Christin</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>5)Other</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td> </td>
+    <th class="text-dark">Total</th>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="7">IV</td>
+    <td>Indication Of Termination</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>1)Danger opf life</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>2)Grave injury to physical health of pregnant woman</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>3)Grave injury to mental health of pregnant woman</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>4)Pregnancy caused by Rap</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>5)Substantialis risk that if ther children was bron of would suffer such physical or mental abnormalities so as to be seriously handicapped</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>6)Failure Contraception</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td> </td>
+    <th class="text-dark">Total</th>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="7">V</td>
+    <td>Termination with</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>1)Sterlization</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>2)IUCD insertion</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>3)No ICUD insertion</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>Married</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>Unmarried</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>Widow</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+  </tr>
+  <tr>
+    <td>VI</td>
+    <td>No of Deaths due to termination</td>
+    <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+
+  </tr>
+</table>

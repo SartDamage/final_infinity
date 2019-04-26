@@ -1,0 +1,152 @@
+a {
+  -webkit-transition: .25s all;
+  transition: .25s all;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-transition: .25s box-shadow;
+  transition: .25s box-shadow;
+}
+
+.card:focus,
+.card:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-inverse .card-img-overlay {
+  background-color: rgba(51, 51, 51, 0.85);
+  border-color: rgba(51, 51, 51, 0.85);
+}
+
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+  /*background-color: #eee;*/
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  content: "\2212";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  content: "\002b";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#txt-search{
+	border-radius:24px;
+	
+}
+div.container {
+        width: 100%;
+    }
+.dataTables_wrapper  .row,col-sm-12{
+	width:100%;
+	margin-right: 0px;
+    margin-left: 0px;
+}
+.dataTables_wrapper .col-sm-12{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.dataTables_length{
+	float: left !important;
+}
+.pagination {
+    display: -webkit-inline-box;
+}
+/*************************************************************************************/
+
+// variables
+$fab-close-line-length: 1.64rem;
+$fab-close-line-thickness: 2px;
+$fab-close-animation-time: .3s;
+$fab-close-spins: 1;
+
+// button
+.fixed-action-btn{
+  &.spin-close{
+    .btn-large {
+      position: relative;
+      i {
+        opacity: 1;
+        transition: transform $fab-close-animation-time, 
+      opacity $fab-close-animation-time;
+      }
+      &:before {
+		  transition: transform $fab-close-animation-time, 
+      opacity $fab-close-animation-time;
+        content: ' ';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: $fab-close-line-length;
+        height: $fab-close-line-thickness;
+        background: white;
+        margin-top: -2px;
+        margin-left: -$fab-close-line-length/2;
+        transform: rotate(0);
+        opacity: 0;
+
+      }
+      &:after {
+        transition: transform $fab-close-animation-time, 
+      opacity $fab-close-animation-time;
+        content: ' ';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: $fab-close-line-length;
+        height: $fab-close-line-thickness;
+        background: white;
+        margin-top: -2px;
+        margin-left: -$fab-close-line-length/2;
+        transform: rotate(0);
+        opacity: 0;
+      }
+    }
+    &.active{
+      .btn-large{
+        i{
+          opacity: 0;
+        }
+        &:before{
+          opacity: 1;
+          transform: rotate(($fab-close-spins*2+1)*45deg);
+        }
+        &:after{
+          opacity: 1;
+          transform: rotate(($fab-close-spins*2+1)*135deg);
+        }
+      }
+    }
+  }
+}
+.btn_addto{
+	width:98px;
+}
+
+#datepicker{width:180px; margin: 0 20px 20px 20px;}
+#datepicker > span:hover{cursor: pointer;}
+
+/************************************************************************************/

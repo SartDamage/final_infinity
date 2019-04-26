@@ -1,0 +1,1 @@
+<?PHP echo $_POST['key1']; ?>

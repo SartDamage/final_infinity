@@ -1,0 +1,9 @@
+<!-- keywords in staff creation form -->
+*---KEY---*--------Value-----------*--------------pages-------------------------------------*
+|   1     |  Admin/superAdmin      |	ALL pages											|
+|   2     |  Doctor                |	View patients/ipd/opd								|
+|   3     |  Pathologist           |	View patients/ipd/opd/Reports/addnew patho patients |
+|   4     |  Recptionalist         |	ADD/VIEW Patients all(includeing patho And Radio 	|
+|   5     |  Radiologist           |	View patients/ipd/opd/Reports/addnew patho patients	|
+|	6	  |	 Pharmacist            |	View patients/ipd/opd/Precription					|
+|_________|________________________|________________________________________________________|   

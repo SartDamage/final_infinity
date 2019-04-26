@@ -1,0 +1,2 @@
+[18-Apr-2019 06:26:46 UTC] PHP Warning:  move_uploaded_file(pp_img/1555568806.jpg): failed to open stream: No such file or directory in /home/ganesh/public_html/infinity/setter/discharge_setter.php on line 162
+[18-Apr-2019 06:26:46 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpSbeWmD' to 'pp_img/1555568806.jpg' in /home/ganesh/public_html/infinity/setter/discharge_setter.php on line 162

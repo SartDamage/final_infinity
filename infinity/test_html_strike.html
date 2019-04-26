@@ -1,0 +1,20 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div>
+<span id="A">click</span>/<span id="A">Akshyay</span>
+</div>
+<script>
+$(function(){
+  var $curParent, Content;
+  $("#A").on("click", function(){
+    if($(this).closest("s").length) {
+      Content = $(this).parent("s").html();
+      $curParent = $(this).closest("s");
+      $(Content).insertAfter($curParent);
+      $(this).closest("s").remove();
+    }
+    else {
+      $(this).wrapAll("<s />");
+    }
+  });
+});
+</script>

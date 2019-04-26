@@ -1,0 +1,25 @@
+<?php
+include $_SERVER['DOCUMENT_ROOT'].'/include/conection.php';
+include $_SERVER['DOCUMENT_ROOT'].'/session.php';
+include $_SERVER['DOCUMENT_ROOT'].'/include/global_variable.php';
+$userDetails=$userClass->userDetails($session_id);
+$db = getDB();
+if (isset($_GET['value_active'])):
+    $quickVar1a = $_GET['value_active'];
+    $pathodrID = $_GET['dr_ID'];
+    $statement=$db->prepare("UPDATE standard_charges SET IsActive = :quickVar1a where ID=:pathodrID;"); 
+	$statement->bindParam(':quickVar1a', $quickVar1a);
+	$statement->bindParam(':pathodrID', $pathodrID);
+	$statement->execute();
+	$db=null;
+	$db = getDB();
+	$stmt=$db->prepare("SELECT wd.IsActive FROM standard_charges AS wd WHERE wd.ID=:pathodrID1");
+	$stmt->bindParam(':pathodrID1', $pathodrID);
+	$stmt->execute();
+	$results=$stmt->fetch(PDO::FETCH_ASSOC);
+	$json=json_encode($results);
+	//return $json;
+	echo $json;
+	$db=null;
+endif;
+?>

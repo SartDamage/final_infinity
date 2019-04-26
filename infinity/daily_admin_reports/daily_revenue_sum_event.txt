@@ -1,0 +1,20 @@
+INSERT INTO daily_collection (ipd_amount,ipd_paid,ipd_advance,ipd_discount,ipd_balance,opd_amount, opd_paid,opd_advance,opd_discount,opd_balance,patho_amount,patho_paid,patho_advance,patho_discount,patho_balance,daily_expense,`date`) 
+        SELECT
+            (SELECT IFNULL((SUM(amount)),0) FROM ipd_bill WHERE DATE(`WhenModified`) = CURRENT_DATE) as ipd_paid,    
+            (SELECT IFNULL((SUM(paid)),0) FROM ipd_bill WHERE DATE(`WhenModified`) = CURRENT_DATE) as ipd_paid, 
+            (SELECT IFNULL((SUM(advance)),0) FROM ipd_bill WHERE DATE(`WhenEntered`) = CURRENT_DATE) as ipd_advance,
+            (SELECT IFNULL((SUM(discount)),0) FROM ipd_bill WHERE DATE(`WhenEntered`) = CURRENT_DATE) as ipd_discount,
+            (SELECT IFNULL(((SUM(amount))-(SUM(discount))),0) FROM ipd_bill WHERE DATE(`WhenEntered`) = CURRENT_DATE) as ipd_balance,
+
+            (SELECT IFNULL((SUM(TotalAmount)),0)  FROM opd_reciepts WHERE DATE(`WhenModified`) = CURRENT_DATE) as opd_paid,             
+            (SELECT IFNULL((SUM(paid)),0)  FROM opd_reciepts WHERE DATE(`WhenModified`) = CURRENT_DATE) as opd_paid, 
+            (SELECT IFNULL((SUM(advance)),0)  FROM opd_reciepts WHERE DATE(`WhenEntered`) = CURRENT_DATE) as opd_advance,
+            (SELECT IFNULL((SUM(paid)),0)  FROM opd_reciepts WHERE DATE(`WhenEntered`) = CURRENT_DATE) as opd_discount, 
+            (SELECT (IFNULL(((SUM(TotalAmount))-(SUM(advance))-(SUM(paid))),0)  FROM opd_reciepts WHERE DATE(`WhenEntered`) = CURRENT_DATE) as opd_balance,            
+            
+            (SELECT IFNULL((SUM(paid)),0)  FROM pathology_reciepts WHERE DATE(`WhenModified`) = CURRENT_DATE) as patho_paid, 
+            (SELECT IFNULL((SUM(advance)),0)  FROM pathology_reciepts WHERE DATE(`WhenEntered`) = CURRENT_DATE) as patho_advance,
+             (SELECT IFNULL((SUM(discount)),0)  FROM pathology_reciepts WHERE DATE(`WhenModified`) = CURRENT_DATE) as patho_discount, 
+            (SELECT IFNULL(((SUM(TotalAmount))-(SUM(paid))-(SUM(advance))),0)  FROM pathology_reciepts WHERE DATE(`WhenEntered`) = CURRENT_DATE) as patho_balance,
+            (SELECT IFNULL((SUM(amount)),0)  FROM expense WHERE DATE(`date`) = CURRENT_DATE) as daily_expense,
+            (curdate()) as `date`
